@@ -19,7 +19,7 @@ client.on('messageCreate', message => {
   if (message.content === '!server') {
     message.reply(`اسم السيرفر: ${message.guild.name}`);
   }
-if (message.content === '-t7') {
+if (message.content === '-dj') {
 
   // نتأكد إن الشخص داخل روم صوتي
   const channel = message.member.voice.channel;
@@ -39,4 +39,4 @@ if (message.content === '-t7') {
 }
 });
 
-client.login('MTM3MDI1MzU5OTQ4OTI2MTY2OQ.GKslfr.REbKJ4dCtJ4FACCYftEt0cqxvcoApw60nZw0AY');
+client.login('MTI4NDcyMDU1Nzk3MTA4MzQwNQ.G9cijv.lJJ7Pb5ibIHCNBh9HYadutID2aDK6gGOMBK_iQ');
